@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="Page2Style.css" />
+</head>
+<body>
+    <section id="TopMenu">
+        <a href="HTMLPage2.html">Projects</a>
+        <a href="#">About Me</a>
+        <a href="#">Contact Me</a>
+        <img src="img\logo.jpg" id="icon" />
+    </section>
+    <div class="mainDiv">
+        <div class="child" id="imgDiv" style="flex:1; ">
+            <section style="position: absolute;">
+                <img src="img\head.jpg" id="head" />
+                <a href="#" id="resume">Resume</a>
+                <img src="img\in.gif" id="logo2" />
+
+            </section>
+        </div>
+        <div class="child" id="bio">
+            <h1 id="HiIntro">Hi&nbsp;there, my&nbsp;name&nbsp;is&nbsp;Farzaneh.</h1>
+            <span>
+                I have always had a dream of being a designer and had always been asked why?! I just knew that I wanted to be a designer one day, but back in that moment I did not have any answers. Now I know design is more than making things attractive. Design has influence on people. It can manipulate thoughts and feelings. That’s why I became a UX/UI designer.
+                <span id="dots"></span>
+                <span id="more">
+                    <br /><br />
+                    For me design is so much more than creating visuals; as a UX/UI designer, I am a psychologist, researcher, and artist all at once. I know how to take a complex problem and form it into smaller and digestable pieces. I have learned to see people as real human beings not only users. I know how to listen to them and understand their goals, frustrations and pain-points and create for them a product that they love to get return to every day.
+                    <br /><br />
+                    My goal is not to forget about the impact of my designs. I’m basing my design decisions on long term goals: I think beyond the users, and design not only for the time they are being used but for the time they are not being used. I spend a long time asking and researching about users’ wishes , dreams, and real needs. At the end of the day, I want my product to add value to their experience and be part of their lives.
+                    <br /><br />
+                    A product is not there to nag you to come back but waiting for you until you actually need it.
+                </span>
+                <a onclick="myFunctionMore()" id="moreBtn"><strong>Read more</strong></a>
+            </span>
+        </div>
+    </div>
+    <div id="MyHobbiesSection" >
+        <div id="MyHobbiesHeading">
+            <h1>My Hobbies</h1>
+        </div>
+        <div id="myHobbies" >
+            <div class="Hobbies">
+                <!--<img src="img\hobby1.jpg" class="HobbiesImg" />-->
+                <video class="HobbiesImg" controls>
+                    <source src="img\hobby1.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+                <h3>Hobby #1</h3>
+                <p class="HobbyText">
+                    Food brings people together.<br />
+                    For me, cooking is a great way to explore other cultures and gather people together.
+                    Trying new foods can lead me to a deeper appreciation of the culture and the people.
+                    I expand my horizons and taste the world from the comfort of my kitchen.
+                </p>
+            </div>
+            <div class="Hobbies">
+                <!--<img src="img\hobby2.jpg" class="HobbiesImg" />-->
+                <video class="HobbiesImg" controls>
+                    <source src="img\hobby2.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+                <h3>Hobby #2</h3>
+                <p class="HobbyText">
+                    I always have a reason to get my hands dirty!<br />
+                    I have a patient eye for detail; lovingly planting and watering my plants for months to blossom even just for a week.
+                    Gardening lifts my mood and help me manage my stress and mental health.
+                    
+                </p>
+            </div>
+            <div class="Hobbies">
+                <img src="img\hobby2.jpg" class="HobbiesImg" />
+                <h3>Hobby #3</h3>
+                <p class="HobbyText">
+                    Researching as a hobby?!
+                    Yes, it makes me smarter and happy.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="SkillSection">
+        <div id="MySkillsHeading">
+            <h1>My Skills</h1>
+        </div>
+        <div id="mySkills" >
+            <div class="skillGroups">
+                <h3 class="subSkillsTitle">UI Skills</h3>
+                <div class="skil">
+                    <div class="subSkills">Figma</div>
+                    <div class="progressDiv"><progress max="100" value="95"></progress></div>
+                </div>
+                <div class="skil">
+                    <div class="subSkills">Adobe&nbsp;XD</div>
+                    <div class="progressDiv"><progress max="100" value="75"></progress></div>
+                </div>
+                <div class="skil">
+                    <div class="subSkills">InVision</div>
+                    <div class="progressDiv"><progress max="100" value="65"></progress></div>
+                </div>
+            </div>
+            <div class="skillGroups">
+                <h3 class="subSkillsTitle">UX Skills</h3>
+                <div class="skil">
+                    <div class="subSkills">
+                        1-on-1&nbsp;Interviews
+                    </div>
+                    <div class="progressDiv"><progress max="100" value="100"></progress></div>
+                </div>
+                <div class="skil">
+                    <div class="subSkills">Research</div>
+                    <div class="progressDiv"><progress max="100" value="100"></progress></div>
+                </div>
+                <div class="skil">
+                    <div class="subSkills">
+                        Brainstorming & Ideation
+                    </div>
+                    <div class="progressDiv"><progress max="100" value="100"></progress></div>
+                </div>
+            </div>
+            <div class="skillGroups">
+                <h3 class="subSkillsTitle">Software Skills</h3>
+                <div  class="skil">
+                    <div class="subSkills">Microsoft&nbsp;Office</div>
+                    <div class="progressDiv"><progress max="100" value="100"></progress></div>
+                </div>
+                <div class="skil">
+                    <div class="subSkills">Visual&nbsp;Studio&nbsp;Code</div>
+                    <div class="progressDiv"><progress max="100" value="70"></progress></div>
+                </div>
+                <div class="skil">
+                    <div class="subSkills">GitHub</div>
+                    <div class="progressDiv"><progress max="100" value="70"></progress></div>
+                </div>
+            </div>
+            <div class="skillGroups">
+                <h3 class="subSkillsTitle">Soft Skills</h3>
+                <div class="skil">
+                    <div class="subSkills">
+                        Empathy
+                    </div>
+                    <div class="progressDiv"><progress max="100" value="100"></progress></div>
+                </div>
+                <div class="skil">
+                    <div class="subSkills">
+                        Collaboration&Communication
+                    </div>
+                    <div class="progressDiv"><progress max="100" value="100"></progress></div>
+                </div>
+                <div class="skil">
+                    <div class="subSkills">
+                        Curiosity
+                    </div>
+                    <div class="progressDiv"><progress max="100" value="100"></progress></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a class="footLink" href="#"><img src="img\foot1.png" class="FooterImg" /></a>
+        <a class="footLink" href="#"><img src="img\foot2.png" class="FooterImg" /></a>
+        <a class="footLink" href="#"><img src="img\foot3.png" class="FooterImg" /></a>
+    </footer>
+    <script>
+        function myFunctionMore() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btn = document.getElementById("moreBtn");
+            if (dots.style.display == "none") {
+                dots.style.display = "inline";
+                moreText.style.display = "none";
+                btn.innerHTML = "Read more";
+            }
+            else {
+                dots.style.display = "none";
+                moreText.style.display = "inline";
+                btn.innerHTML = "Read less";
+            }
+        }
+        function mediaFunction(x) {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btn = document.getElementById("moreBtn");
+            if (x.matches) {
+                dots.style.display = "inline";
+                moreText.style.display = "none";
+                btn.innerHTML = "Read more";
+                btn.style.display = "inline";
+            }
+            else {
+                dots.style.display = "none";
+                moreText.style.display = "inline";
+                btn.innerHTML = "Read less";
+                btn.style.display = "none";
+            }
+        }
+        var x = window.matchMedia("(max-width: 500px)");
+        mediaFunction(x);
+        x.addListener(mediaFunction)
+    </script>
+</body>
+</html>

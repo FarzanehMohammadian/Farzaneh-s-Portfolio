@@ -1,0 +1,258 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    margin: 30px 5%;
+    float: right;
+    color: black;
+}
+
+a:hover {
+        color: grey;
+ }
+/*---------------------*/
+
+.box {
+    height: 300px;
+}
+
+body {
+    color: black;
+}
+.hero-image {
+    display:flex;
+justify-content:center ;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/hero2.jpg");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    width: 100%;
+    top: 0;
+    color: white;
+}
+#heroHeading {
+    font-size: 50px;
+    margin-bottom: 40px;
+    padding-top:30px;
+    padding-left:30px;
+}
+.heroParagraph {
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.scrolIco {
+    text-align: center;   
+}
+
+
+    .hero-text button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 10px 25px;
+        color: black;
+        background-color: #ddd;
+        text-align: center;
+        cursor: pointer;
+    }
+
+        .hero-text button:hover {
+            background-color: #555;
+            color: white;
+        }
+input{
+    border:none;
+    border-bottom:1px solid #333333;
+    margin:30px 10% 30px 0;
+    width:50%;
+    font-family:Tahoma;
+    font-size:17px;
+}
+    input[type=text]:focus {
+        border: none;
+        outline:none;
+        border-bottom: 3px solid black;
+    }
+  input::placeholder{
+      color:black;
+      opacity:1;
+  }
+#Contact{
+    margin-bottom:100px;
+}
+#letsTalkDiv{
+    display:flex;
+    align-items: center;
+    margin-left:5%;
+    margin-top:30px;
+}
+#letsTalk{
+   margin-left: 16px;
+    font-size:30px;
+}
+#conatct{
+    width:80%;
+    margin:50px 10% 100px 10%;
+}
+.ContactRow{
+    width:100%;
+    display:flex;
+}
+#message{
+    width:100%;
+    margin:30px 0 50px 0;
+}
+#submitButton{
+    border:none;
+    height:70px;
+    font-size:50px;
+    background-color:white;
+    width:100%;
+    text-align:right;
+}
+
+.works {
+    align-content: center;
+    margin: auto;
+    text-align: center;
+    transition: transform .3s;
+    margin: 50px 50px;
+    border-radius:10px;
+    padding-bottom:30px;
+    box-shadow: 2px 2px 7px rgba(0,0,0,0.75),-1px -1px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 7px rgba(0,0,0,0.75),-1px -1px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 7px rgba(0,0,0,0.75),-1px -1px 1px rgba(0,0,0,0.75);
+}
+    .works:hover {
+        -ms-transform: scale(0.98); /* IE 9 */
+        -webkit-transform: scale(0.98); /* Safari 3-8 */
+        transform: scale(0.98);
+    }
+#myWorks {
+    display: flex;   
+}
+#child1 {
+    flex: 2;
+   
+}
+#child2 {
+    flex: 1;
+}
+.workImg {
+    height: 450px;
+    padding: 0;
+    min-width: 300px;
+    margin:30px auto;
+    width: 100%;
+}
+#workimg1{
+ max-width: 1000px;
+ max-height:450px;
+}
+#workimg2 {
+    max-width: 320px;
+    max-height: 450px;
+}
+
+@media only screen and (max-width: 700px) {
+    .ContactRow {
+        width: 100%;
+        display: initial;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    #heroHeading {
+        font-size: 30px;
+        margin-bottom: 40px;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+
+    .heroParagraph, .scrolIco {
+        font-size: 10px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+}
+@media only screen and (max-width: 900px) {
+
+
+    #myWorks {
+        display: initial;
+        margin: auto
+    }
+
+    
+    .workImg {
+        max-height: 500px;
+        margin: 30px auto;
+        padding: 0;
+        width: 100%;
+    }
+    #workimg1 {
+        max-width: 1000px;
+        max-height: 350px;
+    }
+
+    #workimg2 {
+        max-width: 320px;
+        max-height: 350px;
+    }
+}
+
+/*---------------------*/
+a {
+    text-decoration: none;
+    margin: 30px 5%;
+    float: right;
+    color: black;
+}
+
+    a:hover {
+        color: grey;
+    }
+
+
+#icon {
+    width: 95px;
+    border-radius: 45px;
+    margin: 20px 40px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    height: 65px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+.footLink {
+    margin: 0px;
+    float: none;
+}
+.FooterImg {
+    width: 50px;
+    height: 50px;
+    margin: 7.5px 5%;
+}
+button{
+    background-color: none!important;
+}
+
+
+

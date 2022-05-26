@@ -1,0 +1,81 @@
+﻿<html>
+<head>
+    <title>my test page</title>
+    <style>
+    </style>
+    <link rel="stylesheet" href="Page1Style.css" />
+   <!-- <link rel="stylesheet" href="Page2Style.css" />-->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+</head>
+<body>
+
+
+    <div>
+        <div>
+            <div>
+                <a href="HTMLPage2.html">Projects</a>
+                <a href="#">About Me</a>
+                <a href="#">Contact Me</a>
+                <img src="img\logo.jpg" style="width:80px; border-radius:50%;" />
+            </div>
+        </div>
+        <div class="hero-image" >
+                <h1 id="heroHeading">Hi&nbsp;there my&nbsp;name&nbsp;is Farzaneh</h1>
+                <p class="heroParagraph">
+                    I am a UX/UI designer based in Toronto.<br />
+                    I design for humans not users. I am here for Human Experience design.
+                </p>
+                <p  class="scrolIco">Scroll down to see my Works!<br />
+                   <button id="downButton" onclick="down()"><i class="fa fa-arrow-circle-down" style="font-size:36px"></i></button>
+                </p>
+
+        </div>
+        <div id="worksDiv">
+            <div id="myWorks">
+                <div class="works" id="child1" >
+                    <img src="img\work2-web.jpeg" id="workimg1" class="workImg" />
+                    <p>HamiCanada Website Re-Design</p>
+                </div>
+                <div class="works" id="child2">
+                    <img src="img\work1.jpeg" id="workimg2" class="workImg" />
+                    <p>Fastic App Re-Design</p>
+                </div>
+            </div>
+        </div>
+        <div id="letsTalkDiv">
+            <img src="img\logo.jpg" style="width:80px; border-radius:50%;" />
+            <strong id="letsTalk">Let's Talk!</strong>
+        </div>
+        <div id="conatct">
+            <form>
+                <div class="ContactRow">
+                    <input type="text" id="fname" name="fname" placeholder="Name" /><br />
+                    <input type="text" id="phone" name="phone" placeholder="Phone" /><br />
+                </div>
+                <div class="ContactRow">
+                    <input type="text" id="email" name="email" placeholder="Email*" /><br />
+                    <input type="text" id="subject" name="subject" placeholder="Subject" /><br />
+                </div>
+                <div class="ContactRow">
+                    <input type="text" id="message" name="message" placeholder="Message" /><br />
+                </div>
+                <div class="ContactRow">
+                    <button id="submitButton">
+                        <i class='fa fa-send'></i>
+                    </button>
+                </div>
+            </form>
+
+        </div>
+        <footer>
+            <a class="footLink" href="#"><img src="img\foot1.png" class="FooterImg" /></a>
+            <a class="footLink" href="#"><img src="img\foot2.png" class="FooterImg" /></a>
+            <a class="footLink" href="#"><img src="img\foot3.png" class="FooterImg" /></a>
+        </footer>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+

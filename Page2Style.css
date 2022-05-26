@@ -1,0 +1,287 @@
+﻿
+#HiIntro {
+    text-align:left;
+}
+
+.mainDiv{
+    width:100%;
+    display:flex;
+    padding-bottom:50px;
+
+}
+#dots{display:none;}
+#moreBtn{color:rgb(80,192,254);}
+#icon {
+    width: 95px;
+    border-radius: 45px;
+    margin: 20px 40px;
+}
+footer {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    height: 65px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+#imgDiv{
+    min-width:330px;
+}
+#head {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+#logo2 {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    left: 110px;
+    border: 1px solid rgb(80,192,254);
+}
+#bio {
+    flex: 2;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    text-align: justify;
+}
+#MyHobbiesSection {
+    background-color: rgb(245,245,244);
+}
+#resume {
+    position: relative;
+    display: block;
+    background-color: rgb(80,192,254);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    top: 250px;
+    left: -200px;
+    color:white;
+    font-size:xx-large;
+}
+#MyHobbiesHeading {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(245,245,244);
+    margin: 30px 0px;
+    padding-top:20px;
+    padding-bottom:0px;
+}
+#myHobbies {
+    display: flex;
+    background-color: rgb(245,245,244);
+    margin:0px 50px 30px 50px;
+}
+.Hobbies {
+    flex: 1;
+    margin: 0px 20px 20px 20px;
+}
+.HobbiesImg{
+
+    background-color:rgb(196,196,196);
+    border-radius:20px;
+    width:100%;
+    max-width:447px;
+    height:323px;
+    margin:auto;
+    display:flex;
+
+}
+#SkillSection {
+    margin-bottom: 100px;
+}
+.skillGroups {
+    padding:0 0 0 10%;
+}
+#mySkills {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 100px;
+}
+    progress{
+        display:block;
+        width:200px;
+        border:none;
+        border-radius:10px;
+        margin:5px 5px;
+    }
+        progress::-webkit-progress-bar {
+            border-radius: 10px;
+            background: rgb(196,196,196);
+        }
+
+        progress::-webkit-progress-value {
+            border-radius: 10px;
+            background: rgb(80,192,254);
+        }
+        progress::-moz-progress-bar {
+            border-radius: 10px;
+            background:rgb(80,192,254);
+
+        }
+#MySkillsHeading{
+    text-align:center;
+    background-color:white;
+}
+.skil {
+    display: flex;
+    padding-left: 0px;
+
+}
+.skil div{border: 0px solid black; display:block; }
+#mySkills{
+    margin:auto;
+}
+#mySkills div {
+    margin: 0;
+}
+.subSkillsTitle {
+  /*  margin-left: 50px;*/
+}
+
+.subSkills {
+    width: 50%;
+    text-align: left;
+    padding-left: 0px;
+    min-width:120px;
+   
+}
+.HobbyText{
+    text-align:justify;
+}
+.FooterImg{
+    width:50px;
+    height:50px;
+   margin:7.5px 5%;
+}
+
+@media only screen and (max-width: 900px) {
+    #myHobbies {
+        display: initial;
+        background-color: rgb(245,245,244);
+        margin: 0px 50px 30px 50px;
+    }
+    #mySkills {
+        width: 100%;
+        display: grid;
+        grid-template-rows: 25%;
+        grid-template-columns: 100%;
+        margin-bottom: 100px;
+    }
+}
+
+    @media only screen and (max-width: 700px) {
+        #imgDiv {
+            min-width: 120px;
+        }
+
+        #head {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            position: relative;
+            top: 5px;
+            left: 10px;
+        }
+
+        #logo2 {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            position: relative;
+            top: 25px;
+            left: 40px;
+        }
+
+        #resume {
+            position: relative;
+            display: block;
+            background-color: rgb(80,192,254);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 60px;
+            top: 50px;
+            left: -80px;
+            color: white;
+            font-size: x-small;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+       
+
+        #TopMenu {
+            display: none;
+        }
+
+        #imgDiv {
+            min-width: 80px;
+        }
+
+        #head {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            position: relative;
+            top: 5px;
+            left: 10px;
+        }
+
+        #logo2 {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: relative;
+            top: 10px;
+            left: 40px;
+        }
+
+        #resume {
+            position: relative;
+            display: block;
+            background-color: rgb(80,192,254);
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 30px;
+            top: 30px;
+            left: -50px;
+            color: white;
+            font-size: x-small;
+        }
+    }
+    /*---------------------*/
+    a {
+        text-decoration: none;
+        margin: 30px 5%;
+        float: right;
+        color: black;
+    }
+
+        a:hover {
+            color: grey;
+        }
+
+.footLink{
+    margin:0px;
+    float:none;
+}
+
+
